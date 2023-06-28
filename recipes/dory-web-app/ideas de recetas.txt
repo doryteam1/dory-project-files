@@ -1,0 +1,3 @@
+Redireccion trafico desde http a https
+Configuración ssl
+Customdomain con pointDNS
