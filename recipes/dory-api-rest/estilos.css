@@ -1,0 +1,178 @@
+section {
+    margin: 20px 20px;
+    background-color: white;
+    border-radius: 10px;    
+    padding: 30px 100px;
+    box-shadow: 0 1px 15px 5px var(--shadow-2); 
+    
+  }
+  
+  .container-section {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    margin-bottom: 40px;  
+    border: 2px rgb(223, 219, 219) solid;    
+    border-radius: 10px;
+    box-shadow:
+    0 0 0 2em #dddcdc,
+    0 0 0 4em #575758;
+    margin: 4em;
+    padding: 1em;   
+  }
+  
+  .title {
+     margin-bottom: 60px;
+     color:rgb(15, 126, 126);
+    font-size: 45px;
+    text-align: center;    
+  }
+  
+  a{
+    color:rgb(89, 94, 94);
+  }
+
+  ul{
+    color:#575758;      
+  }
+
+  li{
+    list-style-type: circle;
+    line-height: 2.0rem; 
+    color:rgb(40, 42, 42);
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  a:hover{    
+    background-color: rgb(15, 126, 126);
+    color:white;
+    display: block;
+  }
+ 
+  .imagen_dory{
+    width: 60px;
+    height: 60px;      
+  }
+
+ 
+ 
+    /*__________________________________ configuración para celular________________________________________*/
+
+    @media screen and (max-width: 990px) { 
+       
+        .description{
+            margin: 15px 15px 0px 0px;
+        } 
+        .title{
+            margin: 10px;
+            font-size: 40px;
+        }
+      
+    }
+
+  
+    @media screen and (max-width: 800px) { 
+      .title {
+        font-size: 30px;
+      }   
+        
+      p{
+        font-size: 14px;
+      }
+
+      span{
+        font-size: 14px;
+      }
+
+        .imagen__dory{
+          width: 30px;
+          height: 30px;
+        }
+      
+  }
+   
+  @media screen and (max-width: 600px) {
+       
+        .title {
+          font-size: 26px;
+          margin:10px 16px;
+        } 
+  
+        .container-section {
+          padding: 15px;
+        }
+
+        section { 
+          padding:20px 70px;  
+        }   
+
+         .imagen__dory{
+            width: 30px;
+            height: 30px;
+          }
+
+          span{
+            font-size: 12px;
+          }
+
+          
+  }
+  
+  
+  @media screen and (max-width: 490px) {
+  
+    .title {
+      font-size: 20px;
+      margin:10px 16px;
+    }
+  
+    p{
+        font-size: 11px;
+    }
+
+    span{
+        font-size: 11px;
+    }
+
+    .description { 
+      font-size: 11px;
+      margin: 15px 0px 0px 0px;
+      padding: 0px;
+    }
+  
+    .contenido__central{
+      margin: 0px;
+    }
+  
+    .container-section {
+      padding: 0px;
+    } 
+
+    section {  
+      padding:15px 60px;  
+    }
+     
+   }
+
+
+   @media screen and (max-width: 330px) {
+  
+    .title {
+      font-size: 16px;
+      margin:10px 0px;
+    }  
+    
+    .description { 
+      font-size: 10px;
+      margin: 15px 0px 0px 0px;
+      padding: 0px;
+    }
+  
+      section {  
+          padding:10px 50px;        
+         overflow-x: hidden;  
+      }
+  
+   }
